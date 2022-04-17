@@ -18,11 +18,15 @@ CS4296 group 8
   7. IAM permission section:
       - Runtime role: **Create a role with basic Amazon Lex permissions.**
   8. Children's Online Privacy Protection Act (COPPA)
-      - Is use of your bot subject to the Children's Online Privacy Protection Act (COPPA)? **Yes**
+      - Is use of your bot subject to the Children's Online Privacy Protection Act (COPPA)? **No**
   9. Idle session timeout
       - Session timeout: **5 minute(s)**
   10. Advanced settings - optional: N/A
   11. Navigate to the Bots section, imported bot status should be **Available**.
 ## AWS Lambda function
+## Lex & Lambda Integration
+(AWS console) Amazon Lex -> Bots -> OnlineShopChatbot -> Aliases -> prod -> Languages -> English -> Lambda function :
 
+    Source : productinformation
+    Lambda function version or alias : $LATEST
 ## Amazon DynamoDB
