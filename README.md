@@ -24,6 +24,19 @@ CS4296 group 8
   10. Advanced settings - optional: N/A
   11. Navigate to the Bots section, imported bot status should be **Available**.
 ## AWS Lambda function
+- Import Lambda function
+  1. Login to **AWS console** with a valid account
+  2. Navigate to Services and search for **Lambda**
+  3. Under Functions, **Create function**
+  4. **Author from scratch**, since we are not authorized to perform serverless app repository
+  5. Basic information
+      - Function name: **productinformation**
+      - Runtime: **Python 3.9**
+      - Architecture: **x86_64**
+      - Permissions -> Change default execution role: **LabRole**
+  6. Code source
+      - Copy / Paste lamda functions within AWSLambdaFunctions directory or compress lambda functions as zip and upload as code source
+  7. Press Deploy
 ## Lex & Lambda Integration
 (AWS console) Amazon Lex -> Bots -> OnlineShopChatbot -> Aliases -> Alias item -> Languages -> English -> Lambda function :
 
