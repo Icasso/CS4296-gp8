@@ -25,7 +25,7 @@ CS4296 group 8
   11. Navigate to the Bots section, imported bot status should be **Available**.
 ## AWS Lambda function
 ## Lex & Lambda Integration
-(AWS console) Amazon Lex -> Bots -> OnlineShopChatbot -> Aliases -> prod -> Languages -> English -> Lambda function :
+(AWS console) Amazon Lex -> Bots -> OnlineShopChatbot -> Aliases -> Alias item -> Languages -> English -> Lambda function :
 
     Source : productinformation
     Lambda function version or alias : $LATEST
