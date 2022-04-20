@@ -31,13 +31,14 @@ CS4296 group 8
 
 ## Amazon DynamoDB
 
-1. Login to **AWS console** with a valid account
-2. Navigate to Services and search for **DynamoDB**
-3. Under Create Resources, **Create table**
-4. Table details
-   - Table name: **Orders**
-   - Partition key: **OrderID** with type **String**
-5. Create table, the status should be **Active**
+- Create orders table
+  1.  Login to **AWS console** with a valid account
+  2.  Navigate to Services and search for **DynamoDB**
+  3.  Under Create Resources, **Create table**
+  4.  Table details
+      - Table name: **Orders**
+      - Partition key: **OrderID** with type **String**
+  5.  Create table, the status should be **Active**
 
 ## AWS Lambda function
 
