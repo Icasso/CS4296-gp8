@@ -1,10 +1,10 @@
-import json
 import boto3
 from uuid import uuid4
 import datetime
 
 dynamodb = boto3.resource('dynamodb')
 table = dynamodb.Table('Orders')
+
 
 def productInfo(productCount, productName):
     return f"Your Order on {productCount} {productName}(s) have been made and being processed to our database"
