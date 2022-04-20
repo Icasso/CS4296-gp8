@@ -23,7 +23,15 @@ CS4296 group 8
       - Session timeout: **5 minute(s)**
   10. Advanced settings - optional: N/A
   11. Navigate to the Bots section, imported bot status should be **Available**.
-## AWS Lambda function
+## Amazon DynamoDB
+1. Login to **AWS console** with a valid account
+2. Navigate to Services and search for **DynamoDB**
+3. Under Create Resources, **Create table**
+4. Table details
+    - Table name: **Orders**
+    - Partition key: **OrderID** with type **String**
+5. Create table, the status should be **Active**
+  ## AWS Lambda function
 - Import Lambda function
   1. Login to **AWS console** with a valid account
   2. Navigate to Services and search for **Lambda**
@@ -42,4 +50,4 @@ CS4296 group 8
 
     Source : productinformation
     Lambda function version or alias : $LATEST
-## Amazon DynamoDB
+
